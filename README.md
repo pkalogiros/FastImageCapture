@@ -21,4 +21,11 @@ When the upload is succesful a notification will be fired.
 
 ![Instructions](/docs/successnotif.jpg?raw=true)
 
-...
+______________
+
+Right clicking the camera status bar icon will bring up the list menu along with various actions for each image
+
+![Right click list menu](/docs/list.png?raw=true)
+
+______________
+
