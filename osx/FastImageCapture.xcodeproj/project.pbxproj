@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		761BDD331DED733C00964403 /* NetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = 761BDD321DED733C00964403 /* NetWorking.m */; };
+		761BDD351DED737D00964403 /* Constants.h in Sources */ = {isa = PBXBuildFile; fileRef = 761BDD341DED737D00964403 /* Constants.h */; };
+		761BDD381DED744B00964403 /* UI.m in Sources */ = {isa = PBXBuildFile; fileRef = 761BDD371DED744B00964403 /* UI.m */; };
+		761BDD3B1DED7F7900964403 /* ScreenshotListWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 761BDD3A1DED7F7900964403 /* ScreenshotListWindow.m */; };
+		76214E2D1DCFAE4B001AF0CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76214E2C1DCFAE4B001AF0CE /* AppDelegate.m */; };
+		76214E301DCFAE4B001AF0CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76214E2F1DCFAE4B001AF0CE /* main.m */; };
+		76214E321DCFAE4B001AF0CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76214E311DCFAE4B001AF0CE /* Assets.xcassets */; };
+		76214E351DCFAE4B001AF0CE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76214E331DCFAE4B001AF0CE /* MainMenu.xib */; };
+		76214E3F1DCFD7C7001AF0CE /* fastimagecapture-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 76214E3E1DCFD7C7001AF0CE /* fastimagecapture-logo.png */; };
+		76214E421DCFED1A001AF0CE /* ScreenshotCropper.m in Sources */ = {isa = PBXBuildFile; fileRef = 76214E411DCFED1A001AF0CE /* ScreenshotCropper.m */; };
+		76CFD19D1E0DAA1B0092E236 /* Storage.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CFD19C1E0DAA1B0092E236 /* Storage.m */; };
+		76CFD1A01E0DB0100092E236 /* CaptureHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CFD19F1E0DB0100092E236 /* CaptureHandler.m */; };
+		76CFD1C61E1351C00092E236 /* Notifs.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CFD1C51E1351C00092E236 /* Notifs.m */; };
+		76CFD1C81E1B35540092E236 /* fastimagecapture-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CFD1C71E1B35540092E236 /* fastimagecapture-icon.png */; };
+		76CFD1CB1E1B4C6D0092E236 /* ImgCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CFD1CA1E1B4C6D0092E236 /* ImgCache.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		761BDD311DED733C00964403 /* NetWorking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorking.h; sourceTree = "<group>"; };
+		761BDD321DED733C00964403 /* NetWorking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorking.m; sourceTree = "<group>"; };
+		761BDD341DED737D00964403 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		761BDD361DED744B00964403 /* UI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UI.h; sourceTree = "<group>"; };
+		761BDD371DED744B00964403 /* UI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UI.m; sourceTree = "<group>"; };
+		761BDD391DED7F7900964403 /* ScreenshotListWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenshotListWindow.h; sourceTree = "<group>"; };
+		761BDD3A1DED7F7900964403 /* ScreenshotListWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenshotListWindow.m; sourceTree = "<group>"; };
+		76214E281DCFAE4B001AF0CE /* FastImageCapture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastImageCapture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76214E2B1DCFAE4B001AF0CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		76214E2C1DCFAE4B001AF0CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		76214E2F1DCFAE4B001AF0CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76214E311DCFAE4B001AF0CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76214E341DCFAE4B001AF0CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		76214E361DCFAE4B001AF0CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76214E3E1DCFD7C7001AF0CE /* fastimagecapture-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fastimagecapture-logo.png"; path = "img/fastimagecapture-logo.png"; sourceTree = "<group>"; };
+		76214E401DCFED1A001AF0CE /* ScreenshotCropper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenshotCropper.h; sourceTree = "<group>"; };
+		76214E411DCFED1A001AF0CE /* ScreenshotCropper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenshotCropper.m; sourceTree = "<group>"; };
+		76CFD19B1E0DAA1B0092E236 /* Storage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Storage.h; sourceTree = "<group>"; };
+		76CFD19C1E0DAA1B0092E236 /* Storage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Storage.m; sourceTree = "<group>"; };
+		76CFD19E1E0DB0100092E236 /* CaptureHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureHandler.h; sourceTree = "<group>"; };
+		76CFD19F1E0DB0100092E236 /* CaptureHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureHandler.m; sourceTree = "<group>"; };
+		76CFD1C41E1351C00092E236 /* Notifs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notifs.h; sourceTree = "<group>"; };
+		76CFD1C51E1351C00092E236 /* Notifs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notifs.m; sourceTree = "<group>"; };
+		76CFD1C71E1B35540092E236 /* fastimagecapture-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fastimagecapture-icon.png"; path = "img/fastimagecapture-icon.png"; sourceTree = "<group>"; };
+		76CFD1C91E1B4C6D0092E236 /* ImgCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImgCache.h; sourceTree = "<group>"; };
+		76CFD1CA1E1B4C6D0092E236 /* ImgCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImgCache.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76214E251DCFAE4B001AF0CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76214E1F1DCFAE4B001AF0CE = {
+			isa = PBXGroup;
+			children = (
+				76214E2A1DCFAE4B001AF0CE /* FastImageCapture */,
+				76214E291DCFAE4B001AF0CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76214E291DCFAE4B001AF0CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76214E281DCFAE4B001AF0CE /* FastImageCapture.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76214E2A1DCFAE4B001AF0CE /* FastImageCapture */ = {
+			isa = PBXGroup;
+			children = (
+				761BDD341DED737D00964403 /* Constants.h */,
+				76214E3D1DCFD7BD001AF0CE /* img */,
+				76214E2B1DCFAE4B001AF0CE /* AppDelegate.h */,
+				76214E2C1DCFAE4B001AF0CE /* AppDelegate.m */,
+				76CFD19E1E0DB0100092E236 /* CaptureHandler.h */,
+				76CFD19F1E0DB0100092E236 /* CaptureHandler.m */,
+				76214E311DCFAE4B001AF0CE /* Assets.xcassets */,
+				76214E331DCFAE4B001AF0CE /* MainMenu.xib */,
+				76214E361DCFAE4B001AF0CE /* Info.plist */,
+				76214E2E1DCFAE4B001AF0CE /* Supporting Files */,
+				76214E401DCFED1A001AF0CE /* ScreenshotCropper.h */,
+				76214E411DCFED1A001AF0CE /* ScreenshotCropper.m */,
+				761BDD311DED733C00964403 /* NetWorking.h */,
+				761BDD321DED733C00964403 /* NetWorking.m */,
+				761BDD361DED744B00964403 /* UI.h */,
+				761BDD371DED744B00964403 /* UI.m */,
+				76CFD19B1E0DAA1B0092E236 /* Storage.h */,
+				76CFD19C1E0DAA1B0092E236 /* Storage.m */,
+				76CFD1C41E1351C00092E236 /* Notifs.h */,
+				76CFD1C51E1351C00092E236 /* Notifs.m */,
+				761BDD391DED7F7900964403 /* ScreenshotListWindow.h */,
+				761BDD3A1DED7F7900964403 /* ScreenshotListWindow.m */,
+				76CFD1C91E1B4C6D0092E236 /* ImgCache.h */,
+				76CFD1CA1E1B4C6D0092E236 /* ImgCache.m */,
+			);
+			path = FastImageCapture;
+			sourceTree = "<group>";
+		};
+		76214E2E1DCFAE4B001AF0CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76214E2F1DCFAE4B001AF0CE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76214E3D1DCFD7BD001AF0CE /* img */ = {
+			isa = PBXGroup;
+			children = (
+				76CFD1C71E1B35540092E236 /* fastimagecapture-icon.png */,
+				76214E3E1DCFD7C7001AF0CE /* fastimagecapture-logo.png */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76214E271DCFAE4B001AF0CE /* FastImageCapture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76214E391DCFAE4B001AF0CE /* Build configuration list for PBXNativeTarget "FastImageCapture" */;
+			buildPhases = (
+				76214E241DCFAE4B001AF0CE /* Sources */,
+				76214E251DCFAE4B001AF0CE /* Frameworks */,
+				76214E261DCFAE4B001AF0CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FastImageCapture;
+			productName = FastImageCapture;
+			productReference = 76214E281DCFAE4B001AF0CE /* FastImageCapture.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76214E201DCFAE4B001AF0CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Pantelis;
+				TargetAttributes = {
+					76214E271DCFAE4B001AF0CE = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 69L2632KN8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 76214E231DCFAE4B001AF0CE /* Build configuration list for PBXProject "FastImageCapture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76214E1F1DCFAE4B001AF0CE;
+			productRefGroup = 76214E291DCFAE4B001AF0CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76214E271DCFAE4B001AF0CE /* FastImageCapture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76214E261DCFAE4B001AF0CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76214E321DCFAE4B001AF0CE /* Assets.xcassets in Resources */,
+				76214E3F1DCFD7C7001AF0CE /* fastimagecapture-logo.png in Resources */,
+				76214E351DCFAE4B001AF0CE /* MainMenu.xib in Resources */,
+				76CFD1C81E1B35540092E236 /* fastimagecapture-icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76214E241DCFAE4B001AF0CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761BDD3B1DED7F7900964403 /* ScreenshotListWindow.m in Sources */,
+				76CFD19D1E0DAA1B0092E236 /* Storage.m in Sources */,
+				761BDD351DED737D00964403 /* Constants.h in Sources */,
+				76214E301DCFAE4B001AF0CE /* main.m in Sources */,
+				76214E2D1DCFAE4B001AF0CE /* AppDelegate.m in Sources */,
+				76CFD1CB1E1B4C6D0092E236 /* ImgCache.m in Sources */,
+				761BDD381DED744B00964403 /* UI.m in Sources */,
+				76CFD1A01E0DB0100092E236 /* CaptureHandler.m in Sources */,
+				76214E421DCFED1A001AF0CE /* ScreenshotCropper.m in Sources */,
+				76CFD1C61E1351C00092E236 /* Notifs.m in Sources */,
+				761BDD331DED733C00964403 /* NetWorking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		76214E331DCFAE4B001AF0CE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76214E341DCFAE4B001AF0CE /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76214E371DCFAE4B001AF0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		76214E381DCFAE4B001AF0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		76214E3A1DCFAE4B001AF0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 69L2632KN8;
+				INFOPLIST_FILE = FastImageCapture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pantelis.FastImageCapture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		76214E3B1DCFAE4B001AF0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 69L2632KN8;
+				INFOPLIST_FILE = FastImageCapture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pantelis.FastImageCapture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76214E231DCFAE4B001AF0CE /* Build configuration list for PBXProject "FastImageCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76214E371DCFAE4B001AF0CE /* Debug */,
+				76214E381DCFAE4B001AF0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76214E391DCFAE4B001AF0CE /* Build configuration list for PBXNativeTarget "FastImageCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76214E3A1DCFAE4B001AF0CE /* Debug */,
+				76214E3B1DCFAE4B001AF0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76214E201DCFAE4B001AF0CE /* Project object */;
+}
