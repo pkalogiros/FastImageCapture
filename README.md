@@ -19,6 +19,6 @@ Using it is as simple as left clicking on the camera icon in the osx status bar,
 
 When the upload is succesful a notification will be fired.
 
-![Instructions](/docs/success.png?raw=true)
+![Instructions](/docs/successnotif.jpg?raw=true)
 
 ...
